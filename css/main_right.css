@@ -1,5 +1,5 @@
 .main_right{
-    width: 400px;
+    width: 325px;
 }
 .main_right_id{
     height: 137px;
@@ -73,4 +73,8 @@
 }
 .main_right_weather_where{
     color: dimgray;
+}
+.main_right_ad{
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    width: 325px;
 }
