@@ -1,0 +1,76 @@
+.main_right{
+    width: 400px;
+}
+.main_right_id{
+    height: 137px;
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    background-color: #f7f7f7;
+    padding: 15px;
+}
+.main_right_id_msg{
+    color: dimgray;
+    padding-bottom: 10px;
+}
+.main_right_id_box{
+    padding: 20px 90px;
+    background-color: #19ce60;
+    color: white;
+    font-weight: 900;
+}
+.main_right_id_column{
+    display: flex;
+    padding-top: 15px;
+}
+.main_right_id_column_icon{
+    color: dimgray;
+    padding-right: 5px;
+}
+.main_right_id_column_id{
+    padding-right: 10px;
+}
+.main_right_id_column_password{
+    padding-right: 70px;
+}
+.main_right_weather{
+    display: flex;
+    margin: 13px 0px;
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    padding: 5px;
+    background-color: #f7f7f7;
+    height: 44px;
+}
+.main_right_weather_icon{
+    height: 35px;
+    width: 35px;
+}
+.main_right_weather_column{
+    display: flex;
+    padding: 10px;
+}
+.main_right_weather_current_temp{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right: 5px;
+}
+.main_right_weather_current{
+    font-size: 15px;
+    font-weight: bolder;
+    padding-right: 5px;
+}
+.main_right_weather_max_temp{
+    color: dodgerblue;
+    font-weight: 700;
+    padding-right: 5px;
+}
+.main_right_weather_slash{
+    color: dimgray;
+    padding-right: 5px;
+}
+.main_right_weather_min_temp{
+    color: orangered;
+    font-weight: 700;
+    padding-right: 75px;
+}
+.main_right_weather_where{
+    color: dimgray;
+}

@@ -1,6 +1,10 @@
 @import "header.css";
 @import "footer.css";
+@import "main_left.css";
+@import "main_right.css";
+
 
 *{
     box-sizing: border-box;
+    font-size: 13px;
 }
