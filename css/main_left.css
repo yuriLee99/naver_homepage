@@ -16,6 +16,7 @@
     border: 1px solid rgba(199, 198, 198, 0.952);
     padding: 15px 15px;
     background-color: #f7f7f7;
+    justify-content: space-between;
 }
 .main_left_column_news{
     display: flex;
@@ -31,8 +32,6 @@
 }
 .main_left_column_category{
     display: flex;
-    position: absolute;
-    right: 580px;
 }
 .main_left_column_category__title{
     font-weight: 800;
@@ -46,6 +45,7 @@
 .main_left_news_column{
     display: flex;
     padding-top: 5px;
+    justify-content: space-between;
 }
 .main_left_news__column{
     display: flex;
@@ -77,8 +77,6 @@
 }
 .main_left_news_column_icons{
     display: flex;
-    position: absolute;
-    right: 545px;
     padding-top: 7px;
     font-size: 15px;
 }
@@ -89,6 +87,9 @@
 .main_left_news_column_icons__{
     color: rgb(11, 81, 151);
     padding-right: 15px;
+}
+.main_left_news_column_icons___{
+    color: dimgray;
 }
 .main_left_news_table{
     padding-top: 5px;
@@ -111,4 +112,59 @@
     text-align: center;
     vertical-align: middle;
     width: 126.5px;
+}
+.main_left_post_column{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.main_left_post_column_box{
+    display: flex;
+}
+.main_left_post_column_title{
+    font-size: 15px;
+    font-weight: 800;
+    padding-right: 7px;
+}
+.main_left_post_column_subtitle{
+    color: dimgray;
+    font-size: 12px;
+    padding-top: 3px;
+}
+.main_left_post_column_num{
+    font-size: 12px;
+    font-weight: 800;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+.main_left_post_column__num{
+    color: dimgray;
+    font-size: 12px;
+    padding-right: 7px;
+    padding-top: 3px;
+    border-right: 1px solid rgba(199, 198, 198, 0.952);
+}
+.main_left_post_column_icon{
+    color: dimgray;
+    font-size: 12px;
+    padding-left: 7px;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+.main_left_post_column_subject{
+    color: dimgray;
+    font-size: 12px;
+    padding-top: 3px;
+}
+.main_left_subject{
+    padding-top: 15px;
+}
+.main_left__subject{
+    display: flex;
+    justify-content: space-between;
+}
+.main_left_subjuct_list{
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    padding: 20px 25px;
+    font-weight: 800;
 }
