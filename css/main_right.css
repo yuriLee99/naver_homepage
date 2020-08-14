@@ -142,3 +142,28 @@
     text-align: center  ;
     font-size: 12px;
 }
+.main_right_shop_news{
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    padding: 20px 10px 10px 10px
+}
+.main_right_shop_news_title{
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.main_right_shop_news_box{
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.main_right_shop_news_dot{
+    color: #19ce60;
+    font-weight: 900;
+    font-size: 25px;
+}
+.main_right_shop_news_where{
+    padding: 7px 10px 0px 10px;
+    font-weight: 800;
+}
+.main_right_shop_news_contents{
+    padding-top: 7px;
+}
