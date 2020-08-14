@@ -119,3 +119,26 @@
 .main_right__shop, .main_left_video__dot{
     padding-right: 4px;
 }
+.main_left_video_dot, .main_left_video__dot{
+    color: dimgray;
+}
+.main_right_shop_ad{
+    border: 1px solid rgba(199, 198, 198, 0.952);
+    padding: 50px 10px;
+    justify-content: space-between;
+}
+.main_right_shop_ad_column{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 7px;
+}
+.main_right_shop_ad_img{
+    width: 99px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+.main_right_shop_ad_title{
+    padding-bottom: 6px;
+    text-align: center  ;
+    font-size: 12px;
+}
