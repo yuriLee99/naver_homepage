@@ -165,6 +165,32 @@
     text-align: center;
     padding: 15px 0px;
 }
+.main_left_subject_list_health{
+    background-color: #19ce60;
+    color: white;
+}
+.main_left_subject_list_job:hover{
+    color: orangered;
+}
+.main_left_subject_list_tech:hover{
+    color: darkgray;
+}
+.main_left_subject_list_travel:hover{
+    color: mediumspringgreen;
+}
+.main_left_subject_list_science:hover{
+    color: dodgerblue;
+}
+.main_left_subject_list_living:hover{
+    color: olive;
+}
+.main_left_subject_list_business:hover{
+    color: skyblue;
+}
+.main_left_subject_list_love:hover{
+    color: palevioletred;
+}
+
 .main_left_post{
     display: flex;
     padding: 10px 0px;
