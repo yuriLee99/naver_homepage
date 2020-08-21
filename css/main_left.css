@@ -91,28 +91,21 @@
 .main_left_news_column_icons___{
     color: dimgray;
 }
-.main_left_news_table{
-    padding-top: 5px;
-    padding-bottom: 20px;
+.main_left_news_list{
+    padding: 20px 0px;
 }
-.main_left_news__table{
-    width: 759px;
-    height: 240px;
-}
-.main_left_news_table_tr{
-    border: 1px solid rgba(199, 198, 198, 0.952);
-    padding: 10px;
+.main_left_news_list_column{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    vertical-align: middle;
+}
+.main_left_news_list_name{
+    width: 128px;
     height: 60px;
-}
-.main_left_news_table_td{
     border: 1px solid rgba(199, 198, 198, 0.952);
-    padding: 10px;
-    text-align: center;
-    vertical-align: middle;
-    width: 126.5px;
+    padding: 20px 0px;
 }
+
 .main_left_post_column{
     display: flex;
     justify-content: space-between;
@@ -166,8 +159,11 @@
 }
 .main_left_subjuct_list{
     border: 1px solid rgba(199, 198, 198, 0.952);
-    padding: 20px 25px;
+    width: 120px;
+    height: 50px;
     font-weight: 800;
+    text-align: center;
+    padding: 15px 0px;
 }
 .main_left_post{
     display: flex;
